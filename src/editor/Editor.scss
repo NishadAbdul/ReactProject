@@ -1,0 +1,46 @@
+@import "~quill/dist/quill.core.css";
+@import "~quill/dist/quill.bubble.css";
+@import "~quill/dist/quill.snow.css";
+
+.body-structure {
+    &-left-menu {
+        float: left;
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 1px;
+        border-color: black;
+        height: 350px;
+        width: 15%;
+    }
+
+    &-main {
+        float: left;
+        width: 70%;
+        border-radius: 10px;
+        height: 350px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        &-placeholder{
+            min-height: 38px; // this is the min-height of react-select
+        }
+    }
+
+    &-right-menu {
+        float: left;
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 1px;
+        border-color: black;
+        height: 350px;
+        width: 15%;
+
+        &-item {
+            float: left;
+        }
+    }
+}
+
+.editor-quill {
+    height: 350px;
+}

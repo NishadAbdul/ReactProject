@@ -1,0 +1,58 @@
+.worksheet-card {
+    display: inline-block;
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    cursor: pointer;
+
+    &-body{
+        overflow: hidden;
+        height: inherit;
+        width: inherit;
+    }
+}
+
+.worksheet-card__image{
+    pointer-events: none;
+    max-width: 100%;
+    height: 50%;
+    overflow: hidden;
+
+    > img{
+        height: 100%;
+        width: 100%;
+        // margin-left: 12.5%;
+    }
+}
+
+.worksheet-card__content {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 15px;
+    pointer-events: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.worksheet-card-content__title {
+    font-size: 2rem;
+    margin: 0;pointer-events: none;
+}
+
+.worksheet-card-content__text {
+    font-size: 1.6rem;
+    line-height: 2rem;pointer-events: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}

@@ -1,0 +1,30 @@
+.body-structure{
+    &-left-menu{
+        float: left;
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 1px;
+        border-color: black;
+        height: 350px;
+        width: 15%
+    }
+
+    &-main{
+        float: left;
+        width: 70%;
+    }
+    
+    &-right-menu{
+        float: left;
+        border-radius: 10px;
+        border-style: inset;
+        border-width: 1px;
+        border-color: black;
+        height: 350px;
+        width: 15%;
+
+        &-item{
+            float: left;
+        }
+    }
+}
